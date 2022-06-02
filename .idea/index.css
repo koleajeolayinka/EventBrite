@@ -1,0 +1,123 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    margin: 0;
+
+}
+.container_box  {
+    margin: 0;
+
+    width: 100vw;
+}
+
+
+
+.header{
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
+    background-color: burlywood;
+}
+
+#createAnEvent{
+    color: rebeccapurple;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: unset;
+    text-transform: uppercase;
+}
+
+.header_links {
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.header_links a {
+    color: grey;
+    font-size: 18px;
+}
+.icon {
+}
+
+.hero-page {
+    background-image: linear-gradient(
+            to bottom,
+            rgba(104, 98, 102, 0.52),
+            rgba(17, 17, 17, 0.73)
+    ),
+    url("https://cdn.evbstatic.com/s3-build/fe/build/images/e148f1c19253be5aca39686e45d7e3b2-3_web_1919x543.jpg");
+    height: 60vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+.hero-page button {
+    border: unset;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: red;
+    position: absolute;
+    color: rgb(52, 0, 0);
+    border: 1px solid black;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+
+.ad-container {
+    background-color: rgb(52, 0, 87);
+    width: 70vw;
+    min-height: 10vh;
+    padding: 10px 10px;
+    border-left: 6px solid #f05537;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.ad-container p {
+    font-size: 12px;
+    color: rgb(200, 200, 200);
+    margin: 1px;
+}
+.ad-container h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.ad-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 30vh;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+.popular-section {
+    margin-top: 20px;
+    display: flex;
+    align-items: end;
+    width: 70vw;
+}
+
+.popular-section h2{
+    color: rgb(52, 0, 87);
+    margin: 0;
+
+}
+.header-icon {
+    position: relative;
+    top: 4px;
+}
