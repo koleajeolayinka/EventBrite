@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7559c91d-80a2-4d33-ad43-397e533035f1" name="Changes" comment="main">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7559c91d-80a2-4d33-ad43-397e533035f1" name="Changes" comment="main source" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +34,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/c10-event/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -56,6 +59,7 @@
       <updated>1654180503622</updated>
       <workItem from="1654180504990" duration="2282000" />
       <workItem from="1654183295035" duration="3105000" />
+      <workItem from="1654196847009" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="index.css">
       <created>1654185071689</created>
@@ -106,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654185796614</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="main source">
+      <created>1654197007731</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654197007731</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +142,7 @@
     <MESSAGE value="Am" />
     <MESSAGE value="commit" />
     <MESSAGE value="main" />
-    <option name="LAST_COMMIT_MESSAGE" value="main" />
+    <MESSAGE value="main source" />
+    <option name="LAST_COMMIT_MESSAGE" value="main source" />
   </component>
 </project>

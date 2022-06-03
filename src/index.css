@@ -105,7 +105,6 @@ body{
     flex-direction: column;
 }
 
-
 .popular-section {
     margin-top: 20px;
     display: flex;
@@ -121,4 +120,67 @@ body{
 .header-icon {
     position: relative;
     top: 4px;
+}
+.popular-input {
+    border: unset;
+    border-bottom: 1px solid black;
+    position: relative;
+    bottom: 6px;
+    left: 20px;
+}
+.svg {
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    color: blue;
+}
+
+.menu {
+    margin-top: 15px;
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+
+
+}
+.menu button {
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: unset;
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
+
+}
+.menu button:hover {
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+
+}
+.menu button :focus{
+    color: rgb(60, 0, 156);
+    border-bottom: 2px solid rgb(60, 0, 156);
+}
+
+.menu button :active {
+    color: blue;
+    border-bottom: 2px solid red;
+}
+
+.new-button {
+    position: relative;
+}
+
+.new-button span{
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+}
+
+.new-button span div {
+    background-color: green;
+    border-radius: 30px;
+    padding: 2px 10px;
+    color: white;
+    font-size: 12px;
 }
