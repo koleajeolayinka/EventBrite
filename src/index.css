@@ -38,8 +38,6 @@ body{
     color: grey;
     font-size: 18px;
 }
-.icon {
-}
 
 .hero-page {
     background-image: linear-gradient(
@@ -48,7 +46,7 @@ body{
             rgba(17, 17, 17, 0.73)
     ),
     url("https://cdn.evbstatic.com/s3-build/fe/build/images/e148f1c19253be5aca39686e45d7e3b2-3_web_1919x543.jpg");
-    height: 60vh;
+    height: 55vh;
     width: 100vw;
     background-size: cover;
     background-position: bottom;
@@ -62,7 +60,7 @@ body{
     background-color: red;
     position: absolute;
     color: rgb(52, 0, 0);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: absolute;
     bottom: 40px;
     left: 40px;
@@ -103,6 +101,7 @@ body{
     min-height: 30vh;
     border: 1px solid black;
     flex-direction: column;
+    margin-top: 15px;
 }
 
 .popular-section {
@@ -123,7 +122,7 @@ body{
 }
 .popular-input {
     border: unset;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #000000;
     position: relative;
     bottom: 6px;
     left: 20px;
@@ -154,18 +153,15 @@ body{
 }
 .menu button:hover {
     color: rgb(0, 0, 0);
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(204, 23, 23);
 
 }
-.menu button :focus{
+.menu button:focus{
     color: rgb(60, 0, 156);
     border-bottom: 2px solid rgb(60, 0, 156);
 }
 
-.menu button :active {
-    color: blue;
-    border-bottom: 2px solid red;
-}
+
 
 .new-button {
     position: relative;
@@ -183,4 +179,160 @@ body{
     padding: 2px 10px;
     color: white;
     font-size: 12px;
+}
+.apply {
+    color: red;
+    border-radius: 23px;
+}
+
+.events-container {
+    margin-top: 20px;
+    width: 70vw;
+}
+.events-container h2{
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.card {
+    cursor: pointer;
+    height: 60vh;
+    border-radius: 5px;
+    width: 30%;
+    margin-right: 30px;
+}
+.card:hover{
+    box-shadow: 5px 5px 7px 2px #d4d4d4;
+}
+.card-container {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+
+}
+.card-image-container {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+}
+
+.card-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-image-container button {
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+    position: absolute;
+    right: 15px;
+    bottom: -10px;
+
+}
+.card-information {
+    padding: 15px;
+}
+.card-information h3 {
+    color: #000;
+}
+.card-information p {
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    font-weight: bold;
+
+
+}
+.card-information h6 {
+    color: gray;
+    font-size: 13px;
+    margin-top: 5px
+}
+.card-owner {
+    margin-top: 10px;
+}
+.card-owner p {
+    color: rgba(0, 0, 0, .5);
+    font-size: 12px;
+
+}
+
+.card-owner div {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.card2 {
+    cursor: pointer;
+    height: 60vh;
+    border-radius: 5px;
+    width: 30%;
+}
+.card2:hover{
+    box-shadow: 5px 5px 7px 2px #d4d4d4;
+}
+.card-container2 {
+    display: flex;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+.card-image-container2 {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+}
+
+.card-image-container2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-image-container2 button {
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+    position: absolute;
+    right: 15px;
+    bottom: -10px;
+
+}
+.card-information2 {
+    padding: 15px;
+}
+.card-information2 h3 {
+    color: #000;
+}
+.card-information2 p {
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    font-weight: bold;
+
+
+}
+.card-information2 h6 {
+    color: gray;
+    font-size: 13px;
+    margin-top: 5px
+}
+.card-owner2 {
+    margin-top: 10px;
+}
+.card-owner2 p {
+    color: rgba(0, 0, 0, .5);
+    font-size: 12px;
+}
+
+.card-owner2 div {
+    display: flex;
+    align-items: center;
 }
