@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7559c91d-80a2-4d33-ad43-397e533035f1" name="Changes" comment="main source">
-      <change afterPath="$PROJECT_DIR$/src/heart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logoAlt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facebook.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logoAlt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logoAlt.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,24 +34,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.login.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/c10-event/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/c10-event/login.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.login.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -72,7 +75,8 @@
       <workItem from="1654255227688" duration="1365000" />
       <workItem from="1654290502130" duration="119000" />
       <workItem from="1654552514281" duration="277000" />
-      <workItem from="1654851750413" duration="2771000" />
+      <workItem from="1654851750413" duration="2900000" />
+      <workItem from="1655466573784" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="index.css">
       <created>1654185071689</created>
@@ -137,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654253935433</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="main source">
+      <created>1654860126558</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654860126558</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

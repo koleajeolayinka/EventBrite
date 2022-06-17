@@ -22,48 +22,122 @@ body{
 }
 
 .login-top-box-left {
-    padding: 2%;
+    padding: 3%;
     width: 50%;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* .top-box-left {
+   width: 100px;
+} */
 .login-top-box-right{
     width: 50%;
     background-color: goldenrod;
 }
-.login-top-box-left div {
-    width: 70%;
-    height: 70%;
-}
+
 .login-top-box-left div h1 {
     color: white;
     font-size: 40px;
-}
-.login-page-container label {
-    color: white;
-    font-size: 12px;
+    font-weight: 1200;
 }
 
 .login-input {
-    border: unset;
-    height: 40px;
-    padding: 5px 10px;
-    width: 100%;
-    border-radius: 3px;
-    margin-top: 2px;
-    margin-bottom: 12px;
+    border: 2px solid rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 23vw;
 
+}
+.login-input label {
+    color: black;
+    margin: 5px 10px;
+    font-weight: 500;
+    font-size: 13px;
+
+}
+
+.login-input input {
+    border: unset;
+    height: 23px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.login-input input:focus-visible{
+    outline: none;
+}
+.login-input:focus-within{
+    border: 2px solid goldenrod;
+
+}
+.login-input:focus-within > label {
+    color: goldenrod;
+    font-weight: 500;
+    font-size: 13px;
 }
 .login-page-container button {
     background-color: goldenrod;
     color: black;
     height: 50px;
-    padding: 5px 10px;
+    padding: 5px 8px;
     border: unset;
     border-radius: 3px;
     margin-top: 10px;
     width: 100%;
     font-weight: bold;
 }
+.horizontal-line-container{
+    margin: 15%;
+    position: relative;
+    height: 30px;
+
+}
+
+.horizontal-line-container hr {
+    color: white;
+}
+.horizontal-line-container div {
+    background-color: white;
+    position: absolute;
+    color: black;
+    border-radius: 100px;
+    padding: 0 12px 3px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block;
+    left: 45%;
+    bottom: 18px;
+}
+.modified-botton{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+.alternate-option {
+    margin-top: 20px;
+}
+.modified-botton {
+    position: relative;
+    margin-bottom: 10px;
+}
+.modified-botton .icon {
+    position: absolute;
+    left: 20px;
+    top: 9px;
+}
+.modified-botton button {
+    border: 1px solid gray;
+    height: 45px;
+    width: 100;
+    cursor: pointer;
+}
+.modified-botton .profile-img {
+    position: absolute;
+    right: 40px;
+    top: 9px;
+}
+
