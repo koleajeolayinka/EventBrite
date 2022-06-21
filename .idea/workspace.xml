@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7559c91d-80a2-4d33-ad43-397e533035f1" name="Changes" comment="main source">
-      <change afterPath="$PROJECT_DIR$/src/Login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/apple.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/facebook.svg" afterDir="false" />
+    <list default="true" id="7559c91d-80a2-4d33-ad43-397e533035f1" name="Changes" comment="Login aspect">
+      <change afterPath="$PROJECT_DIR$/src/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/signUp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/signUp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logoAlt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logoAlt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binance.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Binance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -47,6 +48,9 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.login.html">
+    <configuration name="Binance.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/c10-event/Binance.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/c10-event/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -56,6 +60,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.login.html" />
+        <item itemvalue="JavaScript Debug.Binance.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -76,7 +81,8 @@
       <workItem from="1654290502130" duration="119000" />
       <workItem from="1654552514281" duration="277000" />
       <workItem from="1654851750413" duration="2900000" />
-      <workItem from="1655466573784" duration="629000" />
+      <workItem from="1655466573784" duration="1998000" />
+      <workItem from="1655844835582" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="index.css">
       <created>1654185071689</created>
@@ -148,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654860126558</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="svg element">
+      <created>1655467410120</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655467410120</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Login aspect">
+      <created>1655467440789</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655467440789</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +194,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="main" />
     <MESSAGE value="main source" />
-    <option name="LAST_COMMIT_MESSAGE" value="main source" />
+    <MESSAGE value="svg element" />
+    <MESSAGE value="Login aspect" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login aspect" />
   </component>
 </project>
